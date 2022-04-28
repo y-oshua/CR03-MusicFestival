@@ -1,0 +1,111 @@
+.navbar {
+    font-family: 'Lilita One', cursive;
+}
+
+.hero   {
+    height:70vh;
+    width:100%;
+    background-image: url(img/herothrow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    font-family: 'Lilita One', cursive;
+    color:white;
+    text-align: center;
+    padding-top: 35vh;
+    margin-bottom: 1em;
+}
+
+.hero h1{
+    font-size:5em;
+    text-shadow: 3px 3px #FF0000;
+}
+
+.col img {
+    height:50%;
+    object-fit:cover;
+}
+
+.col #left  {
+    width:20%;
+    float:left;
+    padding:.25em;      
+}
+
+.col #right {
+    width: 75%;
+    float:left;
+    padding:.25em;
+}
+
+.container  {
+    padding-bottom:2em;
+}
+
+.stage  {
+    margin-bottom:2em;
+}
+.stage  h2  {
+    padding-left:1em;
+    padding-bottom:.5em;
+}
+
+.stage .card {
+    transition: all 500ms ease-in-out;
+  }
+  
+.stage .card:hover {
+    transform: scale(1.03, 1.03);
+  }
+
+.footer {
+    margin: 0 auto;
+    width:100%;
+    height:auto;
+    padding:1em;
+    color:white;
+    text-align: center;
+}
+
+.footer img {
+    width:100%;
+    height:auto;
+}
+
+.footer .col    {
+    text-align: left;
+    width:50%;
+    padding:2em;
+}
+
+
+@media screen and (max-width: 268px) {
+    .hero h1{
+        font-size:2em;
+        text-shadow: 2px 2px #FF0000;
+    }
+}
+
+@media screen and (min-width: 269px) and (max-width: 768px) {
+    .hero h1{
+        font-size:3em;
+        text-shadow: 2px 2px #FF0000;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+    .footer img {
+        display:none;
+    }
+}
+
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+
+    .footer .col    {
+        margin:0 auto;
+        padding:1em;
+        width:70%;
+        min-width:3em;
+    }
+}
